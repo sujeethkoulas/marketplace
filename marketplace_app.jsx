@@ -435,7 +435,9 @@ const MarketplaceApp = () => {
                 </div>
               </div>
             </div>
-            {/* Your Products */}
+          </div>
+
+          {/* Your Products */}
           <div className="lg:col-span-2">
             <h2 className="text-3xl font-bold mb-8 text-green-600">Your Products ({products.length})</h2>
             <div className="space-y-4">
