@@ -21,7 +21,7 @@ const MarketplaceApp = () => {
 
   const addToCart = (product) => {
     setCart([...cart, product]);
-    alert(Added "${product.title}" to cart!);
+    alert(`Added "${product.title}" to cart!`);
   };
 
   const removeFromCart = (index) => {
